@@ -146,18 +146,3 @@ class LinkedList():
 
 
 
-l = LinkedList()
-l.addStart(100)
-l.addStart(10)
-l.addStart(1)
-l.addEnd(200)
-l.addEnd(300)
-# l.insNodeAfter(400,10)
-
-l.printList()
-
-
-print("now reverse list")
-
-l.revList()
-l.printList()
