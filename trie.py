@@ -10,13 +10,13 @@ class Node():
 '''
 Create a tree of alphabets like this:
 	
-			 +
-			/ \
+		     +
+		    / \
 		   c   d
-		  /		\
+		  /	\
 		 a       o
 		/  \	  \
-	   t   p	   g
+	       t   p	   g
 
 '''
 class Trie():
