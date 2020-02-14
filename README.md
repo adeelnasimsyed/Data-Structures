@@ -6,4 +6,5 @@ A repository of important data structures implemented as classes for use in othe
 1. Stack and Queue
 2. Binary Search Tree
 3. Graph
-4. Trie
+4. Linked List
+5. Trie
