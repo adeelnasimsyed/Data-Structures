@@ -10,13 +10,13 @@ class Node():
 '''
 Create a tree of alphabets like this:
 	
-		     +
-		    / \
+			 +
+			/ \
 		   c   d
-		  /	\
+		  /		\
 		 a       o
 		/  \	  \
-	       t   p	   g
+	   t   p	   g
 
 '''
 class Trie():
@@ -28,8 +28,6 @@ class Trie():
 	def addWord(self, word):
 
 		node = self.root
-
-		# found_flag = False
 
 		for letter in word:
 
@@ -56,8 +54,6 @@ class Trie():
 
 		node = self.root
 
-		found_flag = False
-
 		for letter in word:
 			
 			found_flag = False
@@ -74,6 +70,11 @@ class Trie():
 	def delWord(self, word):
 
 		node = self.root
+
+		if(not self.findWord(word)):
+			print("Word not found")		
+			return
+
 		
 
 		for letter in word:
