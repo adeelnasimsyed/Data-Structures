@@ -8,3 +8,4 @@ A repository of important data structures implemented as classes for use in othe
 3. Graph
 4. Linked List
 5. Trie
+6. Hash Map (C)
